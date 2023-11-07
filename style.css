@@ -6,10 +6,11 @@
     5. Otros
 */
 :root {
-    --white: hsl(0, 0%, 100%)
-    --ligh-gray: hsl(212, 45%, 89%)
-    --grayish-blue: hsl(220, 15%, 55%)
-    --dark-blue: hsl(218, 44%, 22%)
+    --white: #FFFFFF;
+    --ligh-gray: #D6E2F0;
+    --grayish-blue: #7B879D;
+    --dark-blue: #1F3251;
+    --primary-font: 'Outfit', sans-serif;
 }
 * {
     box-sizing: border-box;
@@ -20,3 +21,50 @@ html {
     font-size: 62.5%;
     font-family: 'DM Sans', sans-serif;             /* Fuente Principal. Cuando necesitemos la otra fuente, la colocamos en casos puntuales */
 }
+body {
+    background-color: var(--ligh-gray);
+}
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    max-width: 360px;
+    min-height: 71%;
+    max-height: 91%;
+    background: var(--white);
+    border-radius: 25px;
+    padding: 15px;
+}
+.container-figure {
+max-width: 100%;
+}
+.container-figure-img {
+    width: 100%;
+    max-width: 422px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+.container-h2 {
+    text-align: center;
+    font-family: var(--primary-font);
+    font-size: 2.2rem;
+    margin: 0px 15px 20px 15px;
+    color: var(--dark-blue);
+}
+.container-p {
+    text-align: center;
+    font-family: var(--primary-font);
+    font-size: 1.6rem;
+    margin: 0px 25px 25px 25px;
+    color: var(--grayish-blue);
+}
+
