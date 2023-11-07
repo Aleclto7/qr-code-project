@@ -1,10 +1,3 @@
-/* Convencion: Como seccionar nuestros estilos
-    1. Posicionamiento (relative, absolute...)
-    2. Modelo de Caja (width, height...)
-    3. Tipografia (font-family, font-size...)
-    4. Visuales (shadow, border radius...)
-    5. Otros
-*/
 :root {
     --white: #FFFFFF;
     --ligh-gray: #D6E2F0;
@@ -19,7 +12,7 @@
 }
 html {
     font-size: 62.5%;
-    font-family: 'DM Sans', sans-serif;             /* Fuente Principal. Cuando necesitemos la otra fuente, la colocamos en casos puntuales */
+    font-family: 'DM Sans', sans-serif;
 }
 body {
     background-color: var(--ligh-gray);
