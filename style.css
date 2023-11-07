@@ -38,7 +38,7 @@ main {
     align-items: center;
     width: 80%;
     max-width: 360px;
-    min-height: 66%;
+    min-height: 56%;
     max-height: 540px;
     background: var(--white);
     border-radius: 25px;
